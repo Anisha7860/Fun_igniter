@@ -26,7 +26,9 @@ var tasks = [
   "If you could write anyone on Earth in for President of the United States, who would it be and why?",
   "Keep three ice cubes in your mouth until they melt",
   "Write an autobiography",
-  "Change your work way every problem has a solution"
+  "Change your work way every problem has a solution",
+  "Drink some water, hydrate yourself",
+  "Stretch those muscles and joints, posture check"
 ];
 
 function getTask() {
