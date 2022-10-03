@@ -15,6 +15,7 @@ var tasks = [
   "tell ur college name.",
   "5 things about yourself, which you don't like much.",
   "First impression of College.",
+  "Do a headstand for 10 sec.",
   "Mission and Vision of Department :) ",
   "if you were to Shoot 3 idiots with your class, who would be the actors?",
   "Quick Questions, answer in 5 sec !!",
