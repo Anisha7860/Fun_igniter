@@ -37,6 +37,8 @@ var tasks = [
   "Go out for sometime and interact with the nature!",
   "In act your best friend!",
   "Purpose of your life is to be happy"
+  "Propose a water bottle😍"
+  "Don't think about Monkey for next 10 seconds!!"
 ];
 
 function getTask() {
