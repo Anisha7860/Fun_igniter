@@ -34,8 +34,9 @@ var tasks = [
   "Stretch those muscles and joints, posture check",
   "Drink some milk, Make yourself stronger 💪",
   "Go workout for sometime to make yourself fit!",
-  "Go out for sometime and interact with the nature!"
-  "in act your best friend!"
+  "Go out for sometime and interact with the nature!",
+  "In act your best friend!",
+  "Purpose of your life is to be happy"
 ];
 
 function getTask() {
