@@ -28,7 +28,10 @@ var tasks = [
   "Write an autobiography",
   "Tell a funny incident that happened to you!",
   "Tell 5 of your favourite games!",
-  "Talk to yourself!"
+  "Talk to yourself!",
+  "Change your work way every problem has a solution",
+  "Drink some water, hydrate yourself",
+  "Stretch those muscles and joints, posture check"
 ];
 
 function getTask() {
