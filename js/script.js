@@ -31,7 +31,10 @@ var tasks = [
   "Talk to yourself!",
   "Change your work way every problem has a solution",
   "Drink some water, hydrate yourself",
-  "Stretch those muscles and joints, posture check"
+  "Stretch those muscles and joints, posture check",
+  "Drink some milk, Make yourself stronger 💪",
+  "Go workout for sometime to make yourself fit!",
+  "Go out for sometime and interact with the nature!"
 ];
 
 function getTask() {
