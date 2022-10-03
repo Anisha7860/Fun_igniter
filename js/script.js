@@ -19,7 +19,8 @@ var tasks = [
   "Mission and Vision of Department :) ",
   "if you were to Shoot 3 idiots with your class, who would be the actors?",
   "Quick Questions, answer in 5 sec !!",
-  "Are you a Techie ? Lets find out."
+  "Are you a Techie ? Lets find out.",
+  "Think about things diffrently for getting new ideas."
 ];
 
 function getTask() {
