@@ -19,6 +19,10 @@
 
 ## About The Project
 
+### 🧑🏾‍💻 Demo
+Check out the website: [Fun_igniter
+](https://anisha7860.github.io/Fun_igniter/)
+
 ![demo](./img/demo.png)
 
 ## Installation
