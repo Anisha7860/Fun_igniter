@@ -10,6 +10,7 @@ var tasks = [
   "Say the Alphabets in the reverse order.",
   "Tell any 5 coordinators name, which coordinator did you like the most  !! and Whyy? ",
   "Tell a nursery Rhyme.",
+  "Don't Use the Internet For a Week",
   "Lets see if you can solve some Riddles :)",
   "Tell all the subjects name of your current semester.",
   "tell ur college name.",
