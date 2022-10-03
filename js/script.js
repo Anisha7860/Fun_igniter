@@ -21,7 +21,10 @@ var tasks = [
   "if you were to Shoot 3 idiots with your class, who would be the actors?",
   "Quick Questions, answer in 5 sec !!",
   "Are you a Techie ? Lets find out.",
-  "Think about things diffrently for getting new ideas."
+  "Think about things diffrently for getting new ideas.",
+  "If you met a genie, what would your three wishes be?",
+  "If you could write anyone on Earth in for President of the United States, who would it be and why?",
+  "Keep three ice cubes in your mouth until they melt"
 ];
 
 function getTask() {
