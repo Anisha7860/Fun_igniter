@@ -1,5 +1,5 @@
 var tasks = [
-  "Enact any of your friends or teacher.",
+    "Enact any of your friends or teacher.",
   "Sing a Song or dance.",
   "Tell your Favourite song without actually singing it.",
   "Blind folded Drawing",
@@ -26,6 +26,9 @@ var tasks = [
   "If you could write anyone on Earth in for President of the United States, who would it be and why?",
   "Keep three ice cubes in your mouth until they melt",
   "Write an autobiography",
+  "Tell a funny incident that happened to you!",
+  "Tell 5 of your favourite games!",
+  "Talk to yourself!",
   "Change your work way every problem has a solution",
   "Drink some water, hydrate yourself",
   "Stretch those muscles and joints, posture check"
