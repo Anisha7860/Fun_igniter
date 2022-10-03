@@ -4,7 +4,7 @@ html, body {
     margin: 0;
     padding: 0;
     color: #5e5e5e;
-    background: black;
+    background:black;
     font-family: 'Cabin', sans-serif;    
 }
 
@@ -18,12 +18,12 @@ img {
 }
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .padding {
-    padding-top: 5em;
+    padding-top: 0px;
 }
 
 
@@ -231,7 +231,7 @@ a::after {
 }
 
 .btn:hover:before {
-  opacity: 1;
+  opacity: 5;
 }
 
 .btn:after {
@@ -291,5 +291,9 @@ a::after {
       -0.04em -0.025em 0 #fffc00;
   }
 }
-
-
+#clock{
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 40;
+  margin-left: 70%;
+}

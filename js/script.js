@@ -31,10 +31,19 @@ var tasks = [
   "Talk to yourself!",
   "Change your work way every problem has a solution",
   "Drink some water, hydrate yourself",
-  "Stretch those muscles and joints, posture check"
+  "Stretch those muscles and joints, posture check",
+  "Do you have any girlfriend",
 ];
 
 function getTask() {
   var randNum = Math.floor(Math.random() * tasks.length);
   document.getElementById('task').innerHTML = tasks[randNum];
+}
+const myClock = setInterval( ()=> {
+  myTime();
+}, 1000);
+
+function myTime() {
+  let date = new Date();
+  document.getElementById("clock").innerHTML = date.toLocaleTimeString();
 }
