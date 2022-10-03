@@ -109,13 +109,18 @@ body {
   background-image: radial-gradient(#11581E, #041607);
   font-family: 'Inconsolata', Helvetica, sans-serif;
   font-size: 1.5rem;
-  color: rgba(128, 255, 128, 0.8);
+  color: #80ff80cc;
   text-shadow:
-      0 0 1ex rgba(51, 255, 51, 1),
-      0 0 2px rgba(255, 255, 255, 0.8);
+      0 0 1ex #33ff33,
+      0 0 2px #ffffffcc;
 }
-
-.overlay {
+.change_theme{
+  background-color: #000000;
+  text-align: right;
+}
+.overlay{
+  --overlay-primary:#20802033;
+  --overlay-secondary:#208020cc;
   pointer-events: none;
   position: absolute;
   width: 100%;
@@ -127,7 +132,7 @@ body {
       rgba(0, 0, 0, 0.3) 50%,
       rgba(0, 0, 0, 0) 100%);
   background-size: auto 4px;
-  z-index: 99;
+  z-index: 99; 
 }
 
 .overlay::before {
@@ -144,9 +149,9 @@ body {
   background-image: linear-gradient(
       0deg,
       transparent 0%,
-      rgba(32, 128, 32, 0.2) 2%,
-      rgba(32, 128, 32, 0.8) 3%,
-      rgba(32, 128, 32, 0.2) 3%,
+      var(--overlay-primary) 2%,
+      var(--overlay-secondary) 3%,
+      var(--overlay-primary) 3%,
       transparent 100%);
   background-repeat: no-repeat;
   animation: scan 7.5s linear 0s infinite;
@@ -168,10 +173,13 @@ body {
 }
 
 .output {
-  color: rgba(128, 255, 128, 0.8);
+  --output-color:#80ff80cc;
+  --output-primary:#33ff3366;
+  --output-secondary:#ffffffcc;
+  color: var(--output-color);
   text-shadow:
-      0 0 1px rgba(51, 255, 51, 0.4),
-      0 0 2px rgba(255, 255, 255, 0.8);
+      0 0 1px var(--output-primary),
+      0 0 2px var(--output-secondary);
 }
 
 .output::before {
@@ -194,7 +202,25 @@ a::after {
 .errorcode {
   color: white;
 }
-.btn {
+
+.change_btn{
+  width: 26px;
+  height: 26px;
+  margin: 4px;
+  background: linear-gradient(270deg,  #80ff80cc 13px, #cb141d 13px);
+  border-radius: 13px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.change_btn:hover:before {
+  opacity: 1;
+  border: 1.5px solid #ffffff;
+}
+
+#btn {
+   --btn-primary:#009b27;
+   --btn-secondary:#00ff0d;
   width: 220px;
   height: 50px;
   border: none;
@@ -208,9 +234,9 @@ a::after {
   border-radius:10px ;
 }
 
-.btn:before {
+#btn:before {
   content: '';
-  background: linear-gradient(45deg, #009b27, #00ff0d, #009b27, #00ff0d, #009b27, #00ff0d, #009b27, #00ff0d, #009b27);
+  background: linear-gradient(45deg, var(--btn-primary), var(--btn-secondary), var(--btn-primary), var(--btn-secondary), var(--btn-primary), var(--btn-secondary), var(--btn-primary), var(--btn-secondary), var(--btn-primary));
   position: absolute;
   top: -2px;
   left:-2px;
@@ -225,16 +251,16 @@ a::after {
   border-radius: 10px;
 }
 
-.btn:active {
+#btn:active {
   background-color: rgb(0, 0, 0);
   transform: scale(0.98);
 }
 
-.btn:hover:before {
+#btn:hover:before {
   opacity: 1;
 }
 
-.btn:after {
+#btn:after {
   z-index: -1;
   content: '';
   position: absolute;
