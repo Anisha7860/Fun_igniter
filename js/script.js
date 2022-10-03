@@ -25,7 +25,10 @@ var tasks = [
   "If you met a genie, what would your three wishes be?",
   "If you could write anyone on Earth in for President of the United States, who would it be and why?",
   "Keep three ice cubes in your mouth until they melt",
-  "Write an autobiography"
+  "Write an autobiography",
+  "Tell a funny incident that happened to you!",
+  "Tell 5 of your favourite games!",
+  "Talk to yourself!"
 ];
 
 function getTask() {
