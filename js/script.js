@@ -32,6 +32,7 @@ var tasks = [
   "Change your work way every problem has a solution",
   "Drink some water, hydrate yourself",
   "Stretch those muscles and joints, posture check",
+  "Do you have any girlfriend",
   "Drink some milk, Make yourself stronger 💪",
   "Go workout for sometime to make yourself fit!",
   "Go out for sometime and interact with the nature!",
@@ -49,6 +50,13 @@ function getTask() {
   var randNum = Math.floor(Math.random() * tasks.length);
   document.getElementById('task').innerHTML = tasks[randNum];
 }
+const myClock = setInterval( ()=> {
+  myTime();
+}, 1000);
+
+function myTime() {
+  let date = new Date();
+  document.getElementById("clock").innerHTML = date.toLocaleTimeString();
 var counter="green";
 function changeTheme(){
   var b=document.getElementById("btn");

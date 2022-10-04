@@ -10,23 +10,44 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/script.js"></script>
+    <style>
+        #myId{
+            position: bottom;
+            margin-left: 70%;
+        }
+    </style>
 </head>
 
 <body>
     <div class="change_theme"> <button class="change_btn" onclick="changeTheme()"></button></div>
     <div class="overlay"></div>
-        <div class="terminal">
-        <div class="glitch"><h1>FUN <span class="errorcode">IGNITER !!</span></h1></div>
-        <p class="output">The page you are looking for might have been removed, had its name changed or is temporarily
-            unavailable</p>
-        <p class="output">Just kidding!! Click the button below to get a new task.</p>
+    <div class="terminal">
+        <div class="glitch">
+            <h1>FUN <span class="errorcode">IGNITER !!</span></h1>
+        </div>
+        <p class="output">hello! The page you are looking for might have been removed, had its name changed or is
+            temporarily
+            unavailable</ü>
+        <p class="output">Just kidding!! &#128513; Click the button below to get a new task.&#128071</p>
         <p>&nbsp;</p>
         <button id="btn" onclick="getTask()">NEXT TASK!</button>
         <p>&nbsp;</p>
-        <p id="task" class="output">-Click on the button to get a task-</A></p>
+        <p id="task" class="output">-Click on the "NEXT TASK" &#128070; button to get a task-</A></p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p class="output">Good luck</p>
+        <p class="output">Have Fun</p>
+        <p id="clock"></p>
+        <p id="myId"></p>
+    <script>
+        var date = new Date();
+        var dd = date.getDate();
+        var mm = date.getMonth() + 1;
+        var yyyy = date.getFullYear();
+        var newDate = dd + "-" + mm + "-" + yyyy;
+        var p = document.getElementById("myId");
+        p.innerHTML = newDate; 
+    </script>
     </div>
 </body>
 </html>
