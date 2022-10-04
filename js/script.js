@@ -43,7 +43,8 @@ var tasks = [
   "Tell any trait you like in you.",
   "What is your favourite game ?",
   "Walk with your hands not with the legs",
-  "Sing a song that starts with the letter 'e'."
+  "Sing a song that starts with the letter 'e'.",
+  "Kick a friend"
 ];
 
 function getTask() {
