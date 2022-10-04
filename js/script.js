@@ -36,9 +36,13 @@ var tasks = [
   "Go workout for sometime to make yourself fit!",
   "Go out for sometime and interact with the nature!",
   "In act your best friend!",
-  "Purpose of your life is to be happy"
-  "Propose a water bottle😍"
-  "Don't think about Monkey for next 10 seconds!!"
+  "Purpose of your life is to be happy",
+  "Propose a water bottle😍",
+  "Don't think about Monkey for next 10 seconds!!",
+  "Tell any trait you like in you.",
+  "What is your favourite game ?",
+  "Walk with your hands not with the legs",
+  "Sing a song that starts with the letter 'e'."
 ];
 
 function getTask() {
