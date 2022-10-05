@@ -8,6 +8,14 @@ html, body {
     font-family: 'Cabin', sans-serif;    
 }
 
+:root {
+  --btn-primary:#009b27;
+  --btn-secondary:#00ff0d;
+  --output-color:#80ff80cc;
+  --output-primary:#33ff3366;
+  --output-secondary:#ffffffcc;
+}
+
 a {
     text-decoration: none;
 }
@@ -115,6 +123,7 @@ body {
       0 0 2px #ffffffcc;
 }
 .change_theme{
+  padding: 15px;
   background-color: #000000;
   text-align: right;
 }
@@ -172,10 +181,15 @@ body {
   text-transform: uppercase;
 }
 
-.output {
-  --output-color:#80ff80cc;
-  --output-primary:#33ff3366;
+.output_change {
+  --output-color:#9f3e09cc;
+  --output-primary:#240a0ad2;
   --output-secondary:#ffffffcc;
+  --btn-primary:#b11b0a;
+  --btn-secondary:#9f400e;
+}
+
+.output {
   color: var(--output-color);
   text-shadow:
       0 0 1px var(--output-primary),
@@ -219,8 +233,6 @@ a::after {
 }
 
 #btn {
-   --btn-primary:#009b27;
-   --btn-secondary:#00ff0d;
   width: 220px;
   height: 50px;
   border: none;
