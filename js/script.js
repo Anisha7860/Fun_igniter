@@ -46,6 +46,8 @@ var tasks = [
   "Sing a song that starts with the letter 'e'.",
   "Kick a friend",
   "Call your dad"
+  "Watch a movie"
+  "Eat Popcorn"
 ];
 
 function getTask() {
