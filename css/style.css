@@ -1,102 +1,103 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin|Lato');
+@import url("https://fonts.googleapis.com/css?family=Cabin|Lato");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
 
-html, body {
-    margin: 0;
-    padding: 0;
-    color: #5e5e5e;
-    background:black;
-    font-family: 'Cabin', sans-serif;    
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #5e5e5e;
+  background: black;
+  font-family: "Cabin", sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .padding {
-    padding-top: 0px;
+  padding-top: 0px;
 }
-
 
 /* Navbar or Header */
 header {
-    height: auto;
-    background: #fff;
-    line-height: 1rem;
-    -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,0.12);
-            box-shadow: 0 2px 6px 0 rgba(0,0,0,0.12);
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 100;
+  height: auto;
+  background: #fff;
+  line-height: 1rem;
+  -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
 }
 
 header .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 #logo {
-    color: #111111;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 1em;
-    font-size: 1.5em;
-    font-family: 'Lato', sans-serif;
+  color: #111111;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 1em;
+  font-size: 1.5em;
+  font-family: "Lato", sans-serif;
 }
 
 .navbar-links {
-    padding-left: 0;
-    list-style: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
+  padding-left: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
 }
 
 .navbar-links .nav-link {
-    margin-top: auto;
-    margin-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-.navbar-links .nav-link a {        
-    color: #5e5e5e;
-    white-space: nowrap;
-    padding: 1.4em 1.2em;
-    text-transform: uppercase;
-    font-family: 'Cabin', sans-serif;
+.navbar-links .nav-link a {
+  color: #5e5e5e;
+  white-space: nowrap;
+  padding: 1.4em 1.2em;
+  text-transform: uppercase;
+  font-family: "Cabin", sans-serif;
 }
 
 .navbar-links .nav-link a:hover {
-    color: rgb(102, 51, 153);
-    border-bottom: 3px solid rgb(102, 51, 153);
+  color: rgb(102, 51, 153);
+  border-bottom: 3px solid rgb(102, 51, 153);
 }
 
 .navbar-links .nav-link a.active {
-    color: rgb(102, 51, 153);
-    border-bottom: 3px solid rgb(102, 51, 153);
+  color: rgb(102, 51, 153);
+  border-bottom: 3px solid rgb(102, 51, 153);
 }
 
-@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+@import "https://fonts.googleapis.com/css?family=Inconsolata";
 
 html {
   min-height: 100%;
@@ -106,33 +107,31 @@ body {
   box-sizing: border-box;
   height: 100%;
   background-color: #000000;
-  background-image: radial-gradient(#11581E, #041607);
-  font-family: 'Inconsolata', Helvetica, sans-serif;
+  background-image: radial-gradient(#11581e, #041607);
+  font-family: "Inconsolata", Helvetica, sans-serif;
   font-size: 1.5rem;
   color: #80ff80cc;
-  text-shadow:
-      0 0 1ex #33ff33,
-      0 0 2px #ffffffcc;
+  text-shadow: 0 0 1ex #33ff33, 0 0 2px #ffffffcc;
 }
-.change_theme{
+.change_theme {
   background-color: #000000;
   text-align: right;
 }
-.overlay{
-  --overlay-primary:#20802033;
-  --overlay-secondary:#208020cc;
+.overlay {
+  --overlay-primary: #20802033;
+  --overlay-secondary: #208020cc;
   pointer-events: none;
   position: absolute;
   width: 100%;
   height: 100%;
-  background:
-      repeating-linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0) 0,
-      rgba(0, 0, 0, 0.3) 50%,
-      rgba(0, 0, 0, 0) 100%);
+  background: repeating-linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
   background-size: auto 4px;
-  z-index: 99; 
+  z-index: 99;
 }
 
 .overlay::before {
@@ -147,19 +146,25 @@ body {
   width: 100%;
   height: 100%;
   background-image: linear-gradient(
-      0deg,
-      transparent 0%,
-      var(--overlay-primary) 2%,
-      var(--overlay-secondary) 3%,
-      var(--overlay-primary) 3%,
-      transparent 100%);
+    0deg,
+    transparent 0%,
+    var(--overlay-primary) 2%,
+    var(--overlay-secondary) 3%,
+    var(--overlay-primary) 3%,
+    transparent 100%
+  );
   background-repeat: no-repeat;
   animation: scan 7.5s linear 0s infinite;
 }
 
 @keyframes scan {
-  0%        { background-position: 0 -100vh; }
-  35%, 100% { background-position: 0 100vh; }
+  0% {
+    background-position: 0 -100vh;
+  }
+  35%,
+  100% {
+    background-position: 0 100vh;
+  }
 }
 
 .terminal {
@@ -173,13 +178,11 @@ body {
 }
 
 .output {
-  --output-color:#80ff80cc;
-  --output-primary:#33ff3366;
-  --output-secondary:#ffffffcc;
+  --output-color: #80ff80cc;
+  --output-primary: #33ff3366;
+  --output-secondary: #ffffffcc;
   color: var(--output-color);
-  text-shadow:
-      0 0 1px var(--output-primary),
-      0 0 2px var(--output-secondary);
+  text-shadow: 0 0 1px var(--output-primary), 0 0 2px var(--output-secondary);
 }
 
 .output::before {
@@ -203,11 +206,11 @@ a::after {
   color: white;
 }
 
-.change_btn{
+.change_btn {
   width: 26px;
   height: 26px;
   margin: 4px;
-  background: linear-gradient(270deg,  #80ff80cc 13px, #cb141d 13px);
+  background: linear-gradient(270deg, #80ff80cc 13px, #cb141d 13px);
   border-radius: 13px;
   border: 1px solid #ffffff;
   cursor: pointer;
@@ -219,8 +222,8 @@ a::after {
 }
 
 #btn {
-   --btn-primary:#009b27;
-   --btn-secondary:#00ff0d;
+  --btn-primary: #009b27;
+  --btn-secondary: #00ff0d;
   width: 220px;
   height: 50px;
   border: none;
@@ -230,16 +233,27 @@ a::after {
   cursor: pointer;
   position: relative;
   z-index: 0;
-  border:solid green 1px ;
-  border-radius:10px ;
+  border: solid green 1px;
+  border-radius: 10px;
 }
 
 #btn:before {
-  content: '';
-  background: linear-gradient(45deg, var(--btn-primary), var(--btn-secondary), var(--btn-primary), var(--btn-secondary), var(--btn-primary), var(--btn-secondary), var(--btn-primary), var(--btn-secondary), var(--btn-primary));
+  content: "";
+  background: linear-gradient(
+    45deg,
+    var(--btn-primary),
+    var(--btn-secondary),
+    var(--btn-primary),
+    var(--btn-secondary),
+    var(--btn-primary),
+    var(--btn-secondary),
+    var(--btn-primary),
+    var(--btn-secondary),
+    var(--btn-primary)
+  );
   position: absolute;
   top: -2px;
-  left:-2px;
+  left: -2px;
   background-size: 400%;
   z-index: -1;
   filter: blur(5px);
@@ -247,7 +261,7 @@ a::after {
   height: calc(100% + 4px);
   animation: glowing 20s linear infinite;
   opacity: 0;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
 
@@ -262,7 +276,7 @@ a::after {
 
 #btn:after {
   z-index: -1;
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -273,9 +287,15 @@ a::after {
 }
 
 @keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 .glitch {
@@ -317,9 +337,32 @@ a::after {
       -0.04em -0.025em 0 #fffc00;
   }
 }
-#clock{
+#clock {
   font-size: 1.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 40;
   margin-left: 70%;
+}
+.Input {
+  font: 20px Verdana;
+  font-style: italic;
+  border: 1px solid orange;
+  width: 300px;
+}
+
+.Submit {
+  color: blanchedalmond;
+  background-color: #273c75;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+textarea {
+  width: 900px;
+  height: 40px;
+  resize: none;
 }
