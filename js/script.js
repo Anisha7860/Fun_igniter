@@ -1,5 +1,5 @@
 var tasks = [
-    "Enact any of your friends or teacher.",
+  "Enact any of your friends or teacher.",
   "Sing a Song or dance.",
   "Tell your Favourite song without actually singing it.",
   "Blind folded Drawing",
@@ -44,60 +44,55 @@ var tasks = [
   "What is your favourite game ?",
   "Walk with your hands not with the legs",
   "Sing a song that starts with the letter 'e'.",
-  "Kick a friend",
-  "Call your dad"
-  "Watch a movie"
-  "Eat Popcorn"
 ];
 
 function getTask() {
   var randNum = Math.floor(Math.random() * tasks.length);
-  document.getElementById('task').innerHTML = tasks[randNum];
+  document.getElementById("task").innerHTML = tasks[randNum];
 }
-const myClock = setInterval( ()=> {
+const myClock = setInterval(() => {
   myTime();
 }, 1000);
 
 function myTime() {
   let date = new Date();
   document.getElementById("clock").innerHTML = date.toLocaleTimeString();
-var counter="green";
-function changeTheme(){
-  var b=document.getElementById("btn");
-  const c=document.querySelectorAll(".output");
-  const o=document.querySelector(".overlay");
-  const bt=document.querySelector("#btn");
-  if(counter=="green")
-  {
-    document.body.style.color='#cb141d';
-    document.body.style.textShadow=" 0 0 1ex #ff3333,0 0 2px #ffffffcc;";
-    document.body.style.backgroundImage="radial-gradient(#581111, #041607);"
-    c.forEach(e=>{
-      e.style.setProperty("--output-color","#e21818cc")
-      e.style.setProperty("--output-primary","#ff333366")
+  var counter = "green";
+  function changeTheme() {
+    var b = document.getElementById("btn");
+    const c = document.querySelectorAll(".output");
+    const o = document.querySelector(".overlay");
+    const bt = document.querySelector("#btn");
+    if (counter == "green") {
+      document.body.style.color = "#cb141d";
+      document.body.style.textShadow = " 0 0 1ex #ff3333,0 0 2px #ffffffcc;";
+      document.body.style.backgroundImage =
+        "radial-gradient(#581111, #041607);";
+      c.forEach((e) => {
+        e.style.setProperty("--output-color", "#e21818cc");
+        e.style.setProperty("--output-primary", "#ff333366");
+      });
+      b.style.border = "solid red 1px";
+      o.style.setProperty("--overlay-primary", "#80202033");
+      o.style.setProperty("--overlay-secondary", "#802020cc");
+      bt.style.setProperty("--btn-primary", "#9b0000");
+      bt.style.setProperty("--btn-secondary", "#ff0000");
+      counter = "red";
+    } else {
+      document.body.style.color = "#80ff80cc";
+      document.body.style.textShadow = " 0 0 1ex #33ff33,0 0 2px #ffffffcc;";
+      document.body.style.backgroundImage =
+        "radial-gradient(#11581E, #041607);";
+      c.forEach((e) => {
+        e.style.setProperty("--output-color", "#80ff80cc");
+        e.style.setProperty("--output-primary", "#33ff3366");
+      });
+      b.style.border = "solid green 1px";
+      o.style.setProperty("--overlay-primary", "#20802033");
+      o.style.setProperty("--overlay-secondary", "#208020cc");
+      bt.style.setProperty("--btn-primary", "#009b27");
+      bt.style.setProperty("--btn-secondary", "#00ff0d");
+      counter = "green";
     }
-    )
-    b.style.border="solid red 1px";
-    o.style.setProperty("--overlay-primary","#80202033")
-    o.style.setProperty("--overlay-secondary","#802020cc")
-    bt.style.setProperty("--btn-primary","#9b0000")
-    bt.style.setProperty("--btn-secondary","#ff0000")
-    counter="red";
-  }
-  else{
-    document.body.style.color="#80ff80cc";
-    document.body.style.textShadow=" 0 0 1ex #33ff33,0 0 2px #ffffffcc;";
-    document.body.style.backgroundImage="radial-gradient(#11581E, #041607);"
-    c.forEach(e=>{
-      e.style.setProperty("--output-color","#80ff80cc")
-      e.style.setProperty("--output-primary","#33ff3366")
-    }
-    )
-    b.style.border="solid green 1px";
-    o.style.setProperty("--overlay-primary","#20802033")
-    o.style.setProperty("--overlay-secondary","#208020cc")
-    bt.style.setProperty("--btn-primary","#009b27")
-    bt.style.setProperty("--btn-secondary","#00ff0d")
-    counter="green";
   }
 }
