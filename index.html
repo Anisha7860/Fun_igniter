@@ -37,8 +37,29 @@
         <p>&nbsp;</p>
         <p class="output">Good luck</p>
         <p class="output">Have Fun</p>
+       
+        <form action="" method="POST">
+   <div>
+   <h2>Leave Us With A Comment :)</h2>
+   <label> Name: 
+    <input type="text" name="Name" class="Input" style="width: 225px" placeholder='Ex : Aryan' required>
+   </label>
+   <br><br>
+   <label> Comment: <br>
+   <br>
+    <textarea name="Comment" class="Input" style="width: 300px" placeholder='Give Us Your Feedback 'required ></textarea>
+   </label>
+   <br><br>
+   <input type="submit" name="Submit" value="Submit" class="Submit">
+
+  </form>
+    </div>
+    <?php 
+    include ("comment.php");
+    ?>
         <p id="clock"></p>
         <p id="myId"></p>
+        
     <script>
         var date = new Date();
         var dd = date.getDate();
@@ -51,6 +72,8 @@
         document.body.classList.toggle("output_change");
         }
     </script>
+     
     </div>
 </body>
 </html>
+ 
