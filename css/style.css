@@ -362,12 +362,14 @@ a::after {
   font: 20px Verdana;
   font-style: italic;
   border: 1px solid orange;
+  border-radius: 8px;
   width: 300px;
+  padding: 5px;
 }
 
 .Submit {
-  color: blanchedalmond;
-  background-color: #273c75;
+  color: rgb(0, 0, 0);
+  background-color: #80ff80cc;
   padding: 10px 15px;
   border: none;
   outline: none;
@@ -375,6 +377,11 @@ a::after {
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
+}
+
+.Submit:hover {
+  padding: 12px 17px;
+  font-size: 15px;
 }
 textarea {
   width: 900px;
