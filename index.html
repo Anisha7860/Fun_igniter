@@ -27,7 +27,7 @@
         </div>
         <p class="output">hello! The page you are looking for might have been removed, had its name changed or is
             temporarily
-            unavailable</ü>
+            unavailable</p> 
         <p class="output">Just kidding!! &#128513; Click the button below to get a new task.&#128071</p>
         <p>&nbsp;</p>
         <button id="btn" onclick="getTask()">NEXT TASK!</button>
@@ -38,27 +38,26 @@
         <p class="output">Good luck</p>
         <p class="output">Have Fun</p>
        
+    <div>
+        <h2>Leave Us With A Comment :)</h2>
         <form action="" method="POST">
-   <div>
-   <h2>Leave Us With A Comment :)</h2>
-   <label> Name: 
-    <input type="text" name="Name" class="Input" style="width: 225px" placeholder='Ex : Aryan' required>
-   </label>
-   <br><br>
-   <label> Comment: <br>
-   <br>
-    <textarea name="Comment" class="Input" style="width: 300px" placeholder='Give Us Your Feedback 'required ></textarea>
-   </label>
-   <br><br>
-   <input type="submit" name="Submit" value="Submit" class="Submit">
-
-  </form>
+            <label> Name: 
+                 <input type="text" name="Name" class="Input" style="width: 225px" placeholder='Ex : Aryan' required>
+            </label>
+            <br><br>
+            <label> Comment: <br>
+            <br>
+            <textarea name="Comment" class="Input" style="width: 300px" placeholder='Give Us Your Feedback 'required ></textarea>
+            </label>
+            <br><br>
+            <input type="submit" name="Submit" value="Submit" class="Submit">
+        </form>
     </div>
     <?php 
     include ("comment.php");
     ?>
-        <p id="clock"></p>
-        <p id="myId"></p>
+    <p id="clock"></p>
+    <p id="myId"></p>
         
     <script>
         var date = new Date();
