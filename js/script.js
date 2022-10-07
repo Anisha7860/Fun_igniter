@@ -48,6 +48,16 @@ var tasks = [
   "Call your dad",
   "Watch a movie",
   "Eat Popcorn",
+  "Dance without music for 20 seconds",
+  "Stand on your tippy toes and reach for the moon",
+  "Tell a Knock Knock joke",
+  "Tell a story about a lost duck",
+  "Think of five first names that begin with the letter 'T'",
+  "Tell about the last time your feet got wet.",
+  "Find out whose birthday is closest to yours",
+  "Yell 'Happy Birthday' as loud as you can",
+  "Teach the group a new dance move",
+  "Write a four-line poem"
 ];
 
 function getTask() {
