@@ -57,7 +57,9 @@ var tasks = [
   "Find out whose birthday is closest to yours",
   "Yell 'Happy Birthday' as loud as you can",
   "Teach the group a new dance move",
-  "Write a four-line poem"
+  "Write a four-line poem",
+  "Try Not to Laugh Challenge",
+  "Three-Minute Makeup Challenge"
 ];
 
 function getTask() {
