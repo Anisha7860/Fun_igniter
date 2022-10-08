@@ -20,6 +20,12 @@
 </head>
 
 <body>
+    <!-- Navbar -->
+    <div id="navbar">
+        <a href="#home">FUN_IGNITER</a>
+        <a href="#nextTask">GET TASK</a>
+        <a href="#comment">COMMENT</a>
+      </div>
     <div class="change_theme"> <button class="change_btn" onclick="changeTheme()"></button></div>
     <div class="overlay"></div>
     <div class="terminal">
@@ -29,8 +35,10 @@
         <p class="output">hello! The page you are looking for might have been removed, had its name changed or is
             temporarily
             unavailable</p> 
+            <a name ="nextTask" class="navigation"></a>
         <p class="output">Just kidding!! &#128513; Click the button below to get a new task.&#128071</p>
         <p>&nbsp;</p>
+        
         <button id="btn" onclick="getTask()">NEXT TASK!</button>
         <p>&nbsp;</p>
         <p id="task" class="output">-Click on the "NEXT TASK" &#128070; button to get a task-</A></p>
@@ -38,8 +46,9 @@
         <p>&nbsp;</p>
         <p class="output">Good luck</p>
         <p class="output">Have Fun</p>
-       
+        <a name ="comment"  class="navigation"></a>  
     <div>
+ 
         <h2>Leave Us With A Comment :)</h2>
         <form action="" method="POST">
             <label> Name: 
@@ -51,6 +60,7 @@
             <textarea name="Comment" class="Input" style="width: 300px" placeholder='Give Us Your Feedback 'required ></textarea>
             </label>
             <br><br>
+            
             <input type="submit" name="Submit" value="Submit" class="Submit">
         </form>
     </div>
