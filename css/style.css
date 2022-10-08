@@ -484,6 +484,39 @@ footer{
    opacity: .4;
    font-weight: 200;
 }
+/* navbar styling */
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  z-index: 40;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* overriding default anchor tags */
+.navigation{
+  text-decoration: none;
+  color: inherit;
+}
+.navigation::before {
+  content: none;
+}
+
+.navigation::after {
+  content: none;
+}
+
 
 
   
