@@ -64,7 +64,8 @@ var tasks = [
   "Watch Video at 4x Speed",
   "Tell one Amitabh Bachchan Dialogue",
   "Show the last five people you texted and what the messages said",
-  "Do 100 squats"
+  "Do 100 squats",
+  "Tell a dialogue in different emotion"
 ];
 
 function getTask() {
