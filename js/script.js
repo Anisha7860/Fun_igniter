@@ -60,6 +60,7 @@ var tasks = [
   "Write a four-line poem",
   "Try Not to Laugh Challenge",
   "Three-Minute Makeup Challenge",
+  "Pick a friend and do a flashmob",
   "Call your Ex",
   "Watch Video at 4x Speed",
   "Tell one Amitabh Bachchan Dialogue",
