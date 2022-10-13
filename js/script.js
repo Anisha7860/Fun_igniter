@@ -62,7 +62,9 @@ var tasks = [
   "Three-Minute Makeup Challenge",
   "Call your Ex",
   "Watch Video at 4x Speed",
-  "Tell one Amitabh Bachchan Dialogue"
+  "Tell one Amitabh Bachchan Dialogue",
+  "Show the last five people you texted and what the messages said",
+  "Do 100 squats"
 ];
 
 function getTask() {
