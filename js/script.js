@@ -66,7 +66,12 @@ var tasks = [
   "Tell one Amitabh Bachchan Dialogue",
   "Show the last five people you texted and what the messages said",
   "Do 100 squats",
-  "Tell a dialogue in different emotion"
+  "Tell a dialogue in different emotion",
+  "Learn Reactjs",
+  "Learn to ride bicycle",
+  "Go to a gym",
+  "Go on a walk with your pet",
+  "Do prank calls",
 ];
 
 function getTask() {
