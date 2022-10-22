@@ -72,6 +72,7 @@ var tasks = [
   "Go to a gym",
   "Go on a walk with your pet",
   "Do prank calls",
+  "Chilling with chunkzz",
 ];
 
 function getTask() {
